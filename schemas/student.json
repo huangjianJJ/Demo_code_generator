@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "Name": {
+            "type": "string"
+        },
+        "Age": {
+            "type": "integer"
+        },
+        "Gender": {
+            "type": "string"
+        },
+        "Address": {
+            "type": "string"
+        },
+        "Phone": {
+            "type": "string"
+        },
+        "Email": {
+            "type": "string"    
+        },
+        "school": {
+            "type": "object",
+            "properties":{
+                "Name": {   
+                    "type": "string"
+                },
+                "Address": {
+                    "type": "string"
+                },
+                "Phone": {
+                    "type": "string"
+                },
+                "Email": {
+                    "type": "string"    
+                }
+
+            }
+        }
+    }
+}
